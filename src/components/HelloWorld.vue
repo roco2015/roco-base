@@ -7,10 +7,13 @@
       <dd>1. vue3 + typescript + vite2 + postcss</dd>
       <dd>2. eslint + stylelint</dd>
 
-      <dt>需要安装的插件</dt>
+      <dt>vscode需要安装的插件</dt>
       <dd>1. eslint            publisher:"Dirk Baeumer"</dd>
       <dd>2. stylelint         publisher:"stylelint"</dd>
       <dd>3. postcss           自己酌情安装</dd>
+
+      <dt>安装依赖</dt>
+      <dd>yarn install</dd>
     </dl>
     <p>Email: roco2015@163.com</p>
     <p>Github: roco2015@163.com</p>

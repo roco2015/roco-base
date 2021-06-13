@@ -6,11 +6,14 @@
 2. eslint + stylelint
 
 
-## 需要安装的插件
+## vscode需要安装的插件
 
 1. eslint            publisher:"Dirk Baeumer"
 2. stylelint         publisher:"stylelint"
 3. postcss           自己酌情安装
+
+## 安装依赖
+1. yarn install
 
 
 ## 以下是vite2初始化时自带的文档
