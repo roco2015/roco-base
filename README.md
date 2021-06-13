@@ -16,7 +16,9 @@
 1. yarn install
 
 
-## 以下是vite2初始化时自带的文档
+
+
+# 以下是vite2初始化时自带的文档
 
 # Vue 3 + Typescript + Vite
 
