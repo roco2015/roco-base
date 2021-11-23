@@ -5,6 +5,12 @@
     "source.fixAll.stylelint": true
   },
   "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "editor.tabSize": 2,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -18,4 +24,11 @@
   "vetur.format.enable": false,
   "vetur.validation.template": false,
   "vetur.validation.style": false,
+  "eslint.nodePath": "../node_modules/",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "vue"
+  ],
 }

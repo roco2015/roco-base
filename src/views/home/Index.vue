@@ -1,13 +1,13 @@
 <template>
-  <hello-world>hello world</hello-world>
+  <hello-world msg="Hello Vue 3 + TypeScript + Vite">hello world</hello-world>
 </template>
 
 <script lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue';
 import { defineComponent } from 'vue';
+import HelloWorld from '@/components/HelloWorld.vue';
 
 export default defineComponent({
-  name: 'Home',
+  name: 'HomeIndex',
   components: {
     HelloWorld,
   },

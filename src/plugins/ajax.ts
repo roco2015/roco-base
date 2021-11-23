@@ -7,6 +7,8 @@ const instance = axios.create();
 export default {
   install: (app: App) => {
     app.config.globalProperties.ajax = instance;
-    app.provide('ajax', instance);
+    app.provide('ajax', instance); // 提供vue文件的注入
   },
 };
+
+export { instance as $http };

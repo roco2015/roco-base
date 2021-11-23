@@ -5,6 +5,12 @@ module.exports = {
   plugins: [
     "stylelint-order"
   ],
+  overrides: [
+    {
+      "files": ["**/*.vue"],
+      "customSyntax": "postcss-html",
+    }
+  ],
   rules: {
     'order/properties-order': [
       sortOrderSmacss()

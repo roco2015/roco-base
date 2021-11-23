@@ -38,7 +38,7 @@ pre {
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
-  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 a {
@@ -78,18 +78,18 @@ option,
 select,
 td,
 textarea {
-  font-family: Avenir, Helvetica, Arial, verdana, 'PingFang SC', 'HanHei SC', STHeitiSC-Light, Microsoft Yahei, sans-serif;
+  font-family: Avenir, Helvetica, Arial, verdana, "PingFang SC", "HanHei SC", STHeitiSC-Light, Microsoft Yahei, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 button,
-input[type='button'],
-input[type='number'],
-input[type='password'],
-input[type='search'],
-input[type='submit'],
-input[type='tel'],
-input[type='text'],
+input[type="button"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
 textarea {
-  -webkit-appearance: none;
+  appearance: none;
 }

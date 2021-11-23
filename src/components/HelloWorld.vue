@@ -1,5 +1,6 @@
 <template>
   <h1><slot></slot></h1>
+  {{msg}}
   <div class="content">
     <h3>roco搭建自用脚手架</h3>
     <dl>
@@ -21,45 +22,29 @@
   <button type="button" class="test-btn" @click="count++">count is: {{ count }}</button>
 </template>
 
-<script lang="ts">
-import { ref, defineComponent } from 'vue';
+<script setup lang="ts">
+import { ref, defineProps } from 'vue';
 
-export default defineComponent({
-  name: 'HelloWorld',
-  props: {
-    msg: {
-      type: String,
-      required: true,
-    },
-  },
-  setup: () => {
-    const count = ref(0);
-    return { count };
-  },
-});
+defineProps<{ msg: string }>();
+
+const count = ref(0);
 </script>
 
-<style lang="postcss" scoped>
-h1 {
-  width: 600px;
-  margin: 60px auto;
+<style scoped>
+a {
+  color: #42b983;
 }
 
-.content {
-  width: 600px;
-  margin: 60px auto;
+label {
+  margin: 0 0.5em;
+  font-weight: bold;
+}
 
-  dl {
-    margin: 20px 0 60px;
-  }
-
-  dt {
-    margin-top: 10px;
-  }
-
-  dd {
-    padding-left: 20px;
-  }
+code {
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: #eee;
+  color: #304455;
 }
 
 .test-btn {
@@ -73,11 +58,11 @@ h1 {
   cursor: pointer;
 
   &:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgb(0 0 0 / 10%);
   }
 
   &:active {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgb(0 0 0 / 20%);
   }
 }
 </style>
