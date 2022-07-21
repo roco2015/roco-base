@@ -9,27 +9,27 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
-    "axios": "^0.24.0",
+    "axios": "^0.27.2",
     "postcss-nested": "^5.0.6",
-    "vue": "^3.2.16",
+    "vue": "^3.2.37",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@types/node": "^16.11.9",
+    "@types/node": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
-    "@vitejs/plugin-vue": "^1.9.3",
-    "eslint": "^7.28.0",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "eslint": "^8.20.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-vue": "^8.1.1",
+    "eslint-plugin-vue": "^9.2.0",
     "postcss-html": "^1.2.0",
     "stylelint": "^14.1.0",
-    "stylelint-config-property-sort-order-smacss": "^8.0.0",
-    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-property-sort-order-smacss": "^9.0.0",
+    "stylelint-config-standard": "^26.0.0",
     "stylelint-order": "^5.0.0",
-    "typescript": "^4.4.3",
-    "vite": "^2.6.4",
-    "vue-tsc": "^0.3.0"
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
   }
 }
