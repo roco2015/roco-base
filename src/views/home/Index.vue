@@ -1,5 +1,7 @@
 <template>
-  <hello-world msg="Hello Vue 3 + TypeScript + Vite">hello world</hello-world>
+  <div class="hello-world">
+    <hello-world msg="Hello Vue 3 + TypeScript + Vite">hello world</hello-world>
+  </div>
 </template>
 
 <script lang="ts">
@@ -13,3 +15,10 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="postcss">
+.hello-world {
+  margin: 60px;
+  text-align: center;
+}
+</style>

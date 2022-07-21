@@ -1,6 +1,6 @@
-import sortOrderSmacss from 'stylelint-config-property-sort-order-smacss/generate'
+const sortOrderSmacss = require('stylelint-config-property-sort-order-smacss/generate');
 
-export default {
+module.exports = {
   extends: "stylelint-config-standard",
   plugins: [
     "stylelint-order"

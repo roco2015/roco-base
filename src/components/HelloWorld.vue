@@ -30,7 +30,7 @@ defineProps<{ msg: string }>();
 const count = ref(0);
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 a {
   color: #42b983;
 }
